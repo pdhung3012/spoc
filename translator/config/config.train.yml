@@ -1,4 +1,4 @@
-data: data/preprocessed/preprocessed
+data: out/preprocessed
 save_model: out/model
 log_file: out/log.txt
 

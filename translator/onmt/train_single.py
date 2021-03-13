@@ -59,6 +59,7 @@ def main(opt, device_id):
     else:
         checkpoint = None
         model_opt = opt
+        print('opt data {}'.format(opt.data))
         vocab = torch.load(opt.data + '.vocab.pt')
 
     # check for code where vocab is saved instead of fields
